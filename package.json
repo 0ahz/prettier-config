@@ -10,5 +10,8 @@
     "Prettier"
   ],
   "author": "0ahz <https://github.com/0ahz>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
