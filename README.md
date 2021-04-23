@@ -6,6 +6,8 @@
 
 ```bash
 pnpm i @0ahz/prettier-config -D
+# or npm
+# or yarn
 ```
 
 ## Usage
@@ -16,6 +18,12 @@ In `package.json`:
 {
   "prettier": "@0ahz/prettier-config"
 }
+```
+
+or `.prettierrc`:
+
+```json
+"@0ahz/prettier-config"
 ```
 
 ## License
