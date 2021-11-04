@@ -2,6 +2,7 @@
   "name": "@0ahz/prettier-config",
   "version": "0.0.2",
   "description": "My personal Prettier config",
+  "license": "MIT",
   "main": "index.json",
   "files": [
     "index.json"
@@ -10,7 +11,6 @@
     "Prettier"
   ],
   "author": "0ahz <https://github.com/0ahz>",
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
   }
