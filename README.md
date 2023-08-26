@@ -26,6 +26,15 @@ or `.prettierrc`:
 "@0ahz/prettier-config"
 ```
 
+or `.prettierrc.js`:
+
+```js
+module.exports = {
+  ...require("@wfkit/prettier-config"),
+  // other override
+};
+```
+
 ## License
 
 MIT License - [0ahz](https://github.com/0ahz)
