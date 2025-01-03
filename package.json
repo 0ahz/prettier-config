@@ -1,9 +1,9 @@
 {
   "name": "@0ahz/prettier-config",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "My personal prettier config",
   "repository": "0ahz/prettier-config",
-  "author": "Mark1 <https://github.com/0ahz>",
+  "author": "Mark1 <shuangoahz@gmail.com> (https://github.com/0ahz)",
   "license": "MIT",
   "type": "module",
   "main": "./index.js",
