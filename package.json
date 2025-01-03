@@ -1,16 +1,25 @@
 {
   "name": "@0ahz/prettier-config",
   "version": "0.0.4",
-  "description": "My personal Prettier config",
+  "description": "My personal prettier config",
+  "repository": "0ahz/prettier-config",
+  "author": "Mark1 <https://github.com/0ahz>",
   "license": "MIT",
-  "main": "index.json",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": {
+      "require": "./index.json",
+      "import": "./index.js"
+    }
+  },
   "files": [
-    "index.json"
+    "index.json",
+    "index.js"
   ],
   "keywords": [
     "Prettier"
   ],
-  "author": "0ahz <https://github.com/0ahz>",
   "publishConfig": {
     "access": "public"
   }
