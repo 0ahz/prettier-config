@@ -26,11 +26,20 @@ or `.prettierrc`:
 "@0ahz/prettier-config"
 ```
 
-or `.prettierrc.js`:
+or `.prettierrc.js`
+or `prettier.config.js`:
 
 ```js
+// cjs
 module.exports = {
   ...require("@wfkit/prettier-config"),
+  // other override
+};
+
+// esm
+import config from "@0ahz/prettier-config";
+export default {
+  ...config,
   // other override
 };
 ```
